@@ -1,0 +1,39 @@
+/*estilos de pie de pagina*/
+
+footer{
+	position: relative;
+	margin-top: -10px;
+	width: 100%;
+	padding: 50px;
+	clear: both;
+	background-color:#000;
+	text-align: center;
+	color: #fff;
+
+}
+/*estilo del div*/
+div{
+	text-align: center;
+
+}
+h1¨{
+background-color: red;
+}
+body {
+	font font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+
+
+}
+{
+	box-sizing: border-box;
+
+}
+
+form {
+	width: 100%;
+	padding: 30px;
+}
+h1{
+	text-align: center;
+}
