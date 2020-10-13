@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="dcss.css/css">
+	<body background="  https://todastusfrases.com/wp-content/uploads/2019/10/Fondos-de-pantalla-de-paisajes-naturales.jpg">
+	<title> PASA ADELANTE SOLO SI TIENES USUARIO... GRACIAS</title>
+	<script>
+		function comprobarClave(){
+			clave1 = document.f1.clave1.value
+			clave2 = document.f1.clave2.value
+
+
+			if (clave1 == "Brandon" && clave2 == "Botello"){
+			alert("los datos coinciden ...\n Pase adelante");
+			var href ="inicio.html";
+			window.location=href;
+    }
+
+    else{ 
+    	alert("las dos claves son distintas...\n intente nuevamente.");
+    	var href = " index.html";
+    	window.location=href;
+    };
+
+  }
+</script>
+</head>
+
+<body>
+
+	<h1><center> VALIDAR SOLO SI EL USUARIO Y CONTRASEÑA COINCIDEN</center></h1>
+	<br>
+	<center>escribe una supuesta contraseña dos veces una en cada campo, y pulsa el boton. JavaScript te dira si las dos son iguales.</center>
+
+	<br>
+	<div>
+	<form action="" name="f1" style="text-align: center;">
+		USUARIO: <input type="password" name ="clave1" size="20">
+		<br>
+		PON TU CLAVE:  <input type="password" name ="clave2" size="20">
+		<br>
+		<input type="button" value=" VERIFICAR "  onclick="comprobarClave()  " >
+
+	</form>
+		
+</div>
+    
+ </body>
+ </html>
